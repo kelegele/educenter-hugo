@@ -13,12 +13,12 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [Languages.fr]
-contentDir = "content/french"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Accueil"
-languageCode = "fr-fr"
+contentDir = ""
+copyright = ""
+home = ""
+languageCode = ""
 languageName = ""
-weight = 2
+weight = ""
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
