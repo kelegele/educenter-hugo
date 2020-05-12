@@ -1,4 +1,4 @@
-baseURL = "http://kelegele.netlify.com"
+baseURL = "http://kelegele.netlify.app"
 disableLanguages = []
 disqusShortname = "educenter"
 paginate = "6"
