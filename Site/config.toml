@@ -1,24 +1,24 @@
-baseURL = "https://kelegele.netlify.app"
-disableLanguages = ["fr"]
+baseURL = "https://nOWorld.netlify.app"
+disableLanguages = []
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
-theme = "educenter-hugo"
-title = "Educenter | hugo education template"
+theme = "nOWorld-Homepage"
+title = "nOWorld | ***服务器"
 [Languages.en]
-contentDir = "content/english"
+contentDir = "content/zh"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
-[Languages.fr]
-contentDir = ""
-copyright = ""
-home = ""
-languageCode = ""
-languageName = ""
-weight = ""
+[Languages.zh]
+contentDir = "content/zh"
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+home = "Home"
+languageCode = "zh-CN"
+languageName = "CN"
+weight = 1
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
