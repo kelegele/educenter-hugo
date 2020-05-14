@@ -13,11 +13,25 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: Site/content/zh/blog
+  label: Post (zh)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Author
 - type: directory
   path: Site/content/english/author
   label: Author (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: Site/content/zh/author
+  label: Author (zh)
   create: documents
   match: "**/*"
   templates:
@@ -31,11 +45,25 @@ sections:
   match: "**/*"
   templates:
   - course
+- type: directory
+  path: Site/content/zh/course
+  label: Course (zh)
+  create: documents
+  match: "**/*"
+  templates:
+  - course
 - type: heading
   label: Notice
 - type: directory
   path: Site/content/english/notice
   label: Notice (en)
+  create: all
+  match: "**/*"
+  templates:
+  - notice
+- type: directory
+  path: Site/content/zh/notice
+  label: Notice (zh)
   create: all
   match: "**/*"
   templates:
@@ -49,11 +77,25 @@ sections:
   match: "**/*"
   templates:
   - teacher
+- type: directory
+  path: Site/content/zh/teacher
+  label: Teacher (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - teacher
 - type: heading
   label: Event
 - type: directory
   path: Site/content/english/event
   label: Event (en)
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: directory
+  path: Site/content/zh/event
+  label: Event (zh)
   create: all
   match: "**/*"
   templates:
@@ -67,11 +109,25 @@ sections:
   match: "**/*"
   templates:
   - research
+- type: directory
+  path: Site/content/zh/research
+  label: Research (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - research
 - type: heading
   label: Scholarship
 - type: directory
   path: Site/content/english/scholarship
   label: Scholarship (en)
+  create: all
+  match: "**/*"
+  templates:
+  - scholarship
+- type: directory
+  path: Site/content/zh/scholarship
+  label: Scholarship (zh)
   create: all
   match: "**/*"
   templates:
@@ -84,13 +140,30 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: Site/content/zh/about
+  label: About (zh)
+  create: none
+  match: "*"
+- type: directory
   path: Site/content/english/contact
   label: Contact (en)
   create: none
   match: "*"
 - type: directory
+  path: Site/content/zh/contact
+  label: Contact (zh)
+  create: none
+  match: "*"
+- type: directory
   path: Site/content/english/pages
   label: Created Pages (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: Site/content/zh/pages
+  label: Created Pages (zh)
   create: documents
   match: "**/*"
   templates:
@@ -102,11 +175,23 @@ sections:
   match: "**/*"
   templates:
   - new-page
+- type: directory
+  path: Site/content/zh
+  label: All Pages (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
 - type: heading
   label: Data
 - type: directory
   path: Site/data/en
   label: Data (en)
+  create: all
+  match: "**/*"
+- type: directory
+  path: Site/data/zh
+  label: Data (zh)
   create: all
   match: "**/*"
 - type: directory
