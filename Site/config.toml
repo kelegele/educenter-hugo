@@ -1,17 +1,10 @@
-baseURL = "https://nOWorld.netlify.app"
-disableLanguages = []
+baseURL = "https://nOWorld.top"
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
 theme = "nOWorld-Homepage"
 title = "nOWorld | ***服务器"
-[Languages.en]
-contentDir = "content/zh"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Home"
-languageCode = "en-us"
-languageName = "En"
-weight = 1
+
 [Languages.zh]
 contentDir = "content/zh"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
@@ -19,6 +12,15 @@ home = "Home"
 languageCode = "zh-CN"
 languageName = "CN"
 weight = 1
+
+[Languages.en]
+contentDir = "content/en"
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 2
+
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
