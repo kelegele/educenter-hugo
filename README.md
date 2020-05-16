@@ -15,7 +15,7 @@ nOWorld 服务器官方主页。
 ```
 $ git clone git@github.com:nOWorldServer/nOWorld-Homepage.git
 $ cd nOWorld-Homepage/Site/
-$ hugo server --themesDir ../..
+$ hugo server 
 ```
 
 
