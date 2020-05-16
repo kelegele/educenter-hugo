@@ -78,12 +78,6 @@ about:
     link : "about"
 
 
-############################# Course ################################
-course:
-  enable : false
-  title : "Our Course"
-  # course item comes from "content/**/course" folder.
-
 ######################## Success story #############################
 success_story:
   enable : true
@@ -106,36 +100,6 @@ cta:
     enable : true
     label : "加入"
     link : "/"
-
-############################# event ################################
-event:
-  enable : false
-  title : "Upcoming Events"
-  # event item comes from "content/**/event" folder.
-
-  
-########################### funfacts ############################
-funfacts:
-  enable : false
-  funfact_item:
-    # funfact item loop
-    - name : "TEACHERS"
-      count : "60"
-
-    # funfact item loop
-    - name : "COURSES"
-      count : "50"
-
-    # funfact item loop
-    - name : "STUDENTS"
-      count : "1000"
-
-    # funfact item loop
-    - name : "SATISFIED CLIENT"
-      count : "1400"
-
-# funfact is for about page
-
 
 
 ############################# blog ################################
