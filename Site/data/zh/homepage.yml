@@ -56,7 +56,7 @@ banner_feature:
 about:
   enable : true
   title : "关于本服"
-  image : "images/about/about-us.jpg"
+  image : "images/banner/banner-about.png"
   content : "nOWorld是一个新生服务器，起源于2020年5月2日。致力为您打造一个简单、温馨的高素质正版服务器。如果你厌倦了那些“乱花渐欲迷人眼”的服务器， 想要一个和谐、稳定、友好的Minecraft社区，或者你想要创建一个你梦想中的世界，抑或是想在闲暇时惬意享受日常的安好，欢迎您加入nOWorld!"
   button:
     enable : false
@@ -67,7 +67,7 @@ about:
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
+  bg_image : "images/banner/banner-story.png"
   title : "nOWorld 的故事"
   content : "这还要从那只蝙蝠说起。。。。。。"
   # video link

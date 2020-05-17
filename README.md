@@ -15,9 +15,16 @@ nOWorld 服务器官方主页。
 ```
 $ git clone git@github.com:nOWorldServer/nOWorld-Homepage.git
 $ cd nOWorld-Homepage/Site/
-$ hugo server 
+$ hugo server -D
 ```
-
+o
+## Hugo环境(hugo env)
+```
+Hugo Static Site Generator v0.70.0/extended windows/amd64 BuildDate: unknown
+GOOS="windows"
+GOARCH="amd64"
+GOVERSION="go1.14.1"
+```
 
 ## 许可证
 

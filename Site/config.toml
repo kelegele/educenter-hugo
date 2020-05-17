@@ -171,10 +171,10 @@ link = "//github.com/noworldserver"
 [caches]
 [caches.getjson]
 dir = ":cacheDir/:project"
-maxAge = -1
+maxAge = "5s"
 [caches.getcsv]
 dir = ":cacheDir/:project"
-maxAge = -1
+maxAge = "5s"
 [caches.images]
 dir = ":resourceDir/_gen"
 maxAge = "5s"
@@ -183,4 +183,4 @@ dir = ":resourceDir/_gen"
 maxAge = "5s"
 [caches.modules]
 dir = ":cacheDir/modules"
-maxAge = -1
+maxAge = "5s"
