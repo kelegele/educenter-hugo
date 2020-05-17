@@ -1,4 +1,3 @@
-
 ######################## default configuration ####################
 baseURL = "https://nOWorld.top"
 title = "nOWorld | 属于你的世界"
@@ -13,12 +12,14 @@ disqusShortname = "nOWorld" # get your shortname form here : https://disqus.com
 disableLanguages = ["en"] # desable language from here
 DefaultContentLanguage = "zh"
 hasCJKLanguage = true
+publishdir = "./public"
+enableemoji = true
 
 ################################### Chinese language #####################################
 [Languages.zh]
 title = "nOWorld | 属于你的世界"
 contentDir = "content/zh"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 nOWorld ，页面主题由 [themefisher](https://themefisher.com) 架构。"
 home = "主页"
 languageCode = "zh-CN"
 languageName = "CN"
@@ -48,6 +49,8 @@ link = "plugins/animate/animate.css"
 link = "plugins/venobox/venobox.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/css/font-awesome.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -105,20 +108,20 @@ URL = "https://github.com/noworldserver"
 
 # support menu
 [[menu.support]]
-name = "GitHub"
+name = "EBS永恒气泡工作室"
 icon = ""
-URL = "https://github.com/noworldserver"
+URL = "https://mcebs.cc/"
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "A Minecraft Server"
+author = "Kelegele"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = "加入游戏 play.noworld.top"
+mobile = "QQ群 [1067977130](//shang.qq.com/wpa/qunwpa?idkey=dd1d032a1bad988632fc4ce590773058c7690c872061302cc01570d58d19277d)"
+email = "noworld@outlook.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -129,7 +132,7 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "images/preloader.png" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
@@ -150,17 +153,34 @@ map_marker = "images/marker.png"
 ############################# social site ########################
 [[params.social]]
 title = "QQ"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-qq" # themify icon : http://www.fontawesome.com.cn/
+link = "//shang.qq.com/wpa/qunwpa?idkey=dd1d032a1bad988632fc4ce590773058c7690c872061302cc01570d58d19277d"
 
 [[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "wiki"
+icon = "fa fa-wikipedia-w" # themify icon : http://www.fontawesome.com.cn/
+link = "//wiki.noworld.top"
 
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "//github.com/noworldserver"
 
 
+######################## server ####################
+[caches]
+[caches.getjson]
+dir = ":cacheDir/:project"
+maxAge = -1
+[caches.getcsv]
+dir = ":cacheDir/:project"
+maxAge = -1
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "5s"
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "5s"
+[caches.modules]
+dir = ":cacheDir/modules"
+maxAge = -1
