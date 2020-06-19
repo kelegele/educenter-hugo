@@ -17,7 +17,12 @@ $ git clone git@github.com:nOWorldServer/nOWorld-Homepage.git
 $ cd nOWorld-Homepage/Site/
 $ hugo server -D
 ```
-o
+## 部署
+
+```
+$ hugo
+```
+
 ## Hugo环境(hugo env)
 ```
 Hugo Static Site Generator v0.70.0/extended windows/amd64 BuildDate: unknown
