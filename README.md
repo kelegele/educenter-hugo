@@ -18,10 +18,15 @@ $ cd nOWorld-Homepage/Site/
 $ hugo server -D
 ```
 ## 部署
+该项目已部署于 [nOWorld.top](https://github.com/nOWorldServer/nOWorld.top)
+
+另作部署：
 
 ```
+$ cd nOWorld-Homepage/Site/
 $ hugo
 ```
+生成的 `Site/public` 即可直接部署。
 
 ## Hugo环境(hugo env)
 ```
