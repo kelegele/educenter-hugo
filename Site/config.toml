@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://nOWorld.top"
+baseURL = "https://nOWorld.top"
 title = "nOWorld | 属于你的世界"
 theme = "educenter-hugo"
 # post pagination
