@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://nOWorld.top"
+baseURL = "http://nOWorld.top"
 title = "nOWorld | 属于你的世界"
 theme = "educenter-hugo"
 # post pagination
@@ -20,6 +20,7 @@ enableemoji = true
 title = "nOWorld | 属于你的世界"
 contentDir = "content/zh"
 copyright = "Copyright &copy; 2020 nOWorld ，页面主题由 [themefisher](https://themefisher.com) 架构。"
+beian = "[桂ICP备20004192号](http://www.beian.miit.gov.cn)"
 home = "主页"
 languageCode = "zh-CN"
 languageName = "CN"
