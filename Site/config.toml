@@ -73,33 +73,38 @@ link = "plugins/google-map/gmap.js"
 # main menu
 [[menu.main]]
 name = "加入"
-URL = "/"
+URL = "join"
 weight = 1
+
+[[menu.main]]
+name = "规则"
+URL = "rules"
+weight = 2
 
 [[menu.main]]
 name = "日志"
 URL = "blog"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "社区"
 URL = "/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "玩家档案"
 URL = "/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Wiki"
 URL = "https://wiki.noworld.top"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "GitHub"
 URL = "https://github.com/noworldserver"
-weight = 6
+weight = 7
 
 # links menu
 
@@ -108,6 +113,14 @@ name = "GitHub"
 URL = "https://github.com/noworldserver"
 
 # support menu
+[[menu.support]]
+name = "SoTap游戏社区"
+icon = ""
+URL = "https://sotap.org/"
+[[menu.support]]
+name = "RedFurCity红毛城"
+icon = ""
+URL = "https://www.redfurcity.com/"
 [[menu.support]]
 name = "EBS永恒气泡工作室"
 icon = ""
