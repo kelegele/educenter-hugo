@@ -1,7 +1,7 @@
 ################################# Slider 滑动窗口 #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-1.jpg"
   slider_item:
     # slider item loop
     - title : "nOWorld 属于你的世界"
@@ -29,7 +29,7 @@ slider:
 ############################### Banner feature 特性格子 ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-feature.png"
   feature_item:
     # feature item loop
     - name : "上手简易，操作自由"
@@ -39,7 +39,7 @@ banner_feature:
     # feature item loop
     - name : "和平友好，互帮互助"
       icon : "ti-comments" # icon pack : https://themify.me/themify-icons
-      content : "服务器因兴趣而创立，玩家因兴趣而聚集。我们希望您可以在这里感受到家一般的温暖。同时，服务器以绿宝石为货币，我们鼓励玩家之间的交流，也鼓励您与小伙伴之间互助共利、共同发展。"
+      content : "服务器因兴趣而创立，玩家因兴趣而聚集。我们希望您可以在这里感受到家一般的温暖。同时，我们鼓励玩家之间的交流，也鼓励您与小伙伴之间互助共利、共同发展。"
 
     # feature item loop
     - name : "创意无限，创造无限"
@@ -56,7 +56,7 @@ banner_feature:
 about:
   enable : true
   title : "关于本服"
-  image : "images/banner/banner-about.png"
+  image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-about.png"
   content : "nOWorld是一个新生服务器，起源于2020年5月2日。致力为您打造一个简单、温馨的高素质正版服务器。如果你厌倦了那些“乱花渐欲迷人眼”的服务器， 想要一个和谐、稳定、友好的Minecraft社区，或者你想要创建一个你梦想中的世界，抑或是想在闲暇时惬意享受日常的安好，欢迎您加入nOWorld!"
   button:
     enable : false
@@ -67,11 +67,11 @@ about:
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "images/banner/banner-story.png"
+  bg_image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-story.png"
   title : "nOWorld 的故事"
   content : "这还要从那只蝙蝠说起。。。。。。"
   # video link
-  video_link : "https://www.youtube.com/watch?v=noworld"
+  video_link : "/"
 
 ########################## Call to action ############################
 cta:

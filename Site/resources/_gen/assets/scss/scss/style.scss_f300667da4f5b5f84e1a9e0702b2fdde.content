@@ -624,6 +624,11 @@ link:focus,
       border: 0;
       outline: 0; }
 
+/*logo*/
+.img-logo {
+  width: 235px;
+  height: auto; }
+
 /* banner feature */
 .feature-icon {
   font-size: 50px;
@@ -686,7 +691,8 @@ link:focus,
   background: #00bbbb;
   color: #fff;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  visibility: hidden; }
   .play-btn i {
     line-height: 80px; }
   .play-btn::before {

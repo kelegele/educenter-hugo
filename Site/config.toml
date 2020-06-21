@@ -21,7 +21,7 @@ title = "nOWorld | 属于你的世界"
 contentDir = "content/zh"
 copyright = "Copyright &copy; 2020 nOWorld ，页面主题由 [themefisher](https://themefisher.com) 架构。"
 beian = "[桂ICP备20004192号](http://www.beian.miit.gov.cn)"
-home = "主页"
+home = "Home"
 languageCode = "zh-CN"
 languageName = "CN"
 weight = 1
@@ -93,7 +93,7 @@ weight = 4
 
 [[menu.main]]
 name = "玩家档案"
-URL = "/"
+URL = "https://stats.noworld.top"
 weight = 5
 
 [[menu.main]]
@@ -128,7 +128,7 @@ URL = "https://mcebs.cc/"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Flogomini.png"
 # Meta data
 description = "A Minecraft Server"
 author = "Kelegele"
@@ -146,7 +146,7 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.png" # use jpg, png, svg or gif format.
+preloader = "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fpreloader.png" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]

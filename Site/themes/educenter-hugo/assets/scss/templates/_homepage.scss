@@ -1,3 +1,10 @@
+/*logo*/
+
+.img-logo {
+  width: 235px;
+  height: auto;
+}
+
 /* banner feature */
 .feature-icon {
   font-size: 50px;
@@ -83,6 +90,8 @@
   color: $white;
   font-size: 20px;
   text-align: center;
+
+  visibility: hidden;
 
   i {
     line-height: 80px;
