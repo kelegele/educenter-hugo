@@ -21,4 +21,7 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
+  {{ "<!--CSP设置upgrade-insecure-requests-->" | safeHTML }}
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 </head>
