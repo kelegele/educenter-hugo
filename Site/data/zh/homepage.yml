@@ -34,17 +34,17 @@ banner_feature:
     # feature item loop
     - name : "上手简易，操作自由"
       icon : "ti-thumb-up" # icon pack : https://themify.me/themify-icons
-      content : "我们对原版的规则不做任何修改，同时在此基础上加入插件，让您能够低门槛享受到原版扩展的乐趣。您只需要使用您的正版账号即可进入服务器。服务器中，除出生点外的任何地区都可以由您来开发。"
+      content : "原版的规则中我们仅开放了死亡不掉落，同时在此基础上加入菜单插件，省去记忆大部分指令的繁琐，让您能够低门槛享受到原版扩展的乐趣。"
 
     # feature item loop
     - name : "和平友好，互帮互助"
       icon : "ti-comments" # icon pack : https://themify.me/themify-icons
-      content : "服务器因兴趣而创立，玩家因兴趣而聚集。我们希望您可以在这里感受到家一般的温暖。同时，我们鼓励玩家之间的交流，也鼓励您与小伙伴之间互助共利、共同发展。"
+      content : "服务器因兴趣而创立，玩家因兴趣而聚集。我们希望您可以在这里感受到家一般的温暖，鼓励玩家之间的交流。<br/>我们建立良好的环境，使您与小伙伴之间更好地互助共利、共同发展。"
 
     # feature item loop
-    - name : "创意无限，创造无限"
+    - name : "打破界限，无限想象"
       icon : "ti-crown" # icon pack : https://themify.me/themify-icons
-      content : "服务器采用生存和创造双模式并行，您可以直接在生存服务器里切换世界来捕获你的新灵感。我们同样欢迎建筑玩家入住创造世界。"
+      content : "我们使用正版、离线混合登录。只要您能够遵守我们的规则，就可以加入我们。<br/>同时，我们开放基岩版连通。尽管设备不同，但我们的乐趣相通。"
 
     # feature item loop
     - name : "梦有多长，路有多远"
@@ -57,7 +57,7 @@ about:
   enable : true
   title : "关于本服"
   image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-about.png"
-  content : "nOWorld是一个新生服务器，起源于2020年5月2日。致力为您打造一个简单、温馨的高素质正版服务器。如果你厌倦了那些“乱花渐欲迷人眼”的服务器， 想要一个和谐、稳定、友好的Minecraft社区，或者你想要创建一个你梦想中的世界，抑或是想在闲暇时惬意享受日常的安好，欢迎您加入nOWorld!"
+  content : "我们是一个新兴的小型服务器，创立于2020年5月2日。服务器包容各类群体，我们希望在nOWorld游玩的每一名玩家都能互帮互助，寻找到自己的一份小美好，同时让整个服务器在欢声笑语中更好地前行！"
   button:
     enable : false
     label : "Learn more"
@@ -68,20 +68,22 @@ about:
 success_story:
   enable : true
   bg_image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-story.png"
-  title : "nOWorld 的故事"
-  content : "这还要从那只蝙蝠说起。。。。。。"
+  title : "服务器，从不随意。"
+  content : "匠魂插件(MineTinker)，各种商店(AuctionHouse, Quickshop, ppRandomShop)，睡觉加速(SmoothSleep)……各类插件，满足您的游戏需求！"
   # video link
   video_link : "/"
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "点击加入开始你的 nOWorld 之旅~"
+  subtitle : "点击加入开始你的 nOWorld 之旅~ "
   title : "加入服务器"
+  content_1: "服务器IP：play.noworld.top (Java版)"
+  content_2: "基岩版IP：noworld.top:19132"
   button:
     enable : true
     label : "加入"
-    link : "/"
+    link : "/join/how-to-join-noworld"
 
 
 ############################# blog ################################

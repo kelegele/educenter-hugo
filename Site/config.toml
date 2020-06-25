@@ -21,7 +21,7 @@ title = "nOWorld | 属于你的世界"
 contentDir = "content/zh"
 copyright = "Copyright &copy; 2020 nOWorld ，页面主题由 [themefisher](https://themefisher.com) 架构。"
 beian = "[桂ICP备20004192号](http://www.beian.miit.gov.cn)"
-home = "Home"
+home = "主页"
 languageCode = "zh-CN"
 languageName = "CN"
 weight = 1
@@ -73,12 +73,12 @@ link = "plugins/google-map/gmap.js"
 # main menu
 [[menu.main]]
 name = "加入"
-URL = "join"
+URL = "join/how-to-join-noworld"
 weight = 1
 
 [[menu.main]]
 name = "规则"
-URL = "rules"
+URL = "rules/plz-follow-the-rules"
 weight = 2
 
 [[menu.main]]
@@ -130,7 +130,7 @@ URL = "https://mcebs.cc/"
 [params]
 logo = "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Flogomini.png"
 # Meta data
-description = "A Minecraft Server"
+description = "A Minecraft Server , nOWorld , MC "
 author = "Kelegele"
 # contact info
 address = "加入游戏 play.noworld.top"
