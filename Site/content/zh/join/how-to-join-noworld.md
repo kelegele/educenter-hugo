@@ -22,9 +22,9 @@ type: "post"
 
 您此时已经正常打开 Minecraft ，请在「多人游戏」里，输入服务器IP，添加 nOWorld 服务器。
 
-<h3>服务器IP：play.noworld.top (Java版)</h3>
+**服务器IP：play.noworld.top (Java版)**
 
-<h3>基岩版IP：noworld.top:19132</h3>
+**基岩版IP：noworld.top:19132**
 
 ### 进入服务器
 
