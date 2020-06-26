@@ -52,28 +52,28 @@ banner_feature:
       content : "服务器紧跟 PaperMC 的更新，在稳定的前提下保证游戏版本的最新。同时，服务器（除重大更新外）永不换档，最大限度地保留玩家的美好记忆。"
 
 
-############################## about ##################################
-about:
+############################## plugin ##################################
+plugin:
   enable : true
-  title : "关于本服"
+  title : "服务器，从不随意。"
   image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-about.png"
-  content : "我们是一个新兴的小型服务器，创立于2020年5月2日。服务器包容各类群体，我们希望在nOWorld游玩的每一名玩家都能互帮互助，寻找到自己的一份小美好，同时让整个服务器在欢声笑语中更好地前行！"
+  content : "匠魂插件(MineTinker)，各种商店(AuctionHouse, Quickshop, ppRandomShop)，睡觉加速(SmoothSleep)……各类插件，满足您的游戏需求！"
   button:
-    enable : false
-    label : "Learn more"
-    link : "about"
+    enable : true
+    label : "插件介绍"
+    link : "https://wiki.noworld.top/plugins"
 
 
-######################## Success story #############################
-success_story:
+ ######################## about #############################
+about: 
   enable : true
   bg_image : "http://noworld.cn-bj.ufileos.com/nOWorld-web%2Fhomepage%2Fbanner-story.png"
-  title : "服务器，从不随意。"
-  content : "匠魂插件(MineTinker)，各种商店(AuctionHouse, Quickshop, ppRandomShop)，睡觉加速(SmoothSleep)……各类插件，满足您的游戏需求！"
+  title : "关于本服"
+  content : "我们是一个新兴的小型服务器，创立于2020年5月2日。服务器包容各类群体，我们希望在nOWorld游玩的每一名玩家都能互帮互助，寻找到自己的一份小美好，同时让整个服务器在欢声笑语中更好地前行！"
   # video link
   video_link : "/"
 
-########################## Call to action ############################
+########################## join ############################
 cta:
   enable : true
   subtitle : "点击加入开始你的 nOWorld 之旅~ "
