@@ -9,7 +9,7 @@ nOWorld 服务器官方主页。
 > Build your website with educenter hugo theme by following this easy steps (No Coding Required)
 
 
-## 安装
+## 安装并开始
 基于 [` Hugo `](https://gohugo.io) 运行环境，通过以下命令就可以安装并在本机运行本项目:
 
 ```

@@ -113,23 +113,23 @@ name = "GitHub"
 URL = "https://github.com/noworldserver"
 
 # support menu
-[[menu.support]]
-name = "RedFurCity红毛城"
-icon = ""
-URL = "https://www.redfurcity.com/"
-weight = 1
+# [[menu.support]]
+# name = "RedFurCity红毛城"
+# icon = ""
+# URL = "https://www.redfurcity.com/"
+# weight = 1
 
-[[menu.support]]
-name = "SoTap游戏社区"
-icon = "https://sotap.org/img/core-img/tap_blue_white.png"
-URL = "https://sotap.org/"
-weight = 2
+# [[menu.support]]
+# name = "SoTap游戏社区"
+# icon = "https://sotap.org/img/core-img/tap_blue_white.png"
+# URL = "https://sotap.org/"
+# weight = 2
 
-[[menu.support]]
-name = "EBS永恒气泡工作室"
-icon = ""
-URL = "https://mcebs.cc/"
-weight = 3
+# [[menu.support]]
+# name = "EBS永恒气泡工作室"
+# icon = ""
+# URL = "https://mcebs.cc/"
+# weight = 3
 
 #################### default parameters ################################
 [params]
