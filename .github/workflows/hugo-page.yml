@@ -1,0 +1,35 @@
+name: github pages
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.79.1'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+      
+      - name: Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.0 
+        with:  
+          username: 'root'
+          server: '${{secrets.NOWORLD_IP}}'
+          ssh_private_key: ${{secrets.NOWORLD_SSH_PRIVATE_KEY}} 
+          local_path: './public' 
+          remote_path: '/www/wwwroot/noworld.top'
+          args: '-o ConnectTimeout=5'
