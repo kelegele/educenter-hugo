@@ -32,6 +32,6 @@ jobs:
           username: 'root'
           server: '${{secrets.NOWORLD_IP}}'
           ssh_private_key: ${{secrets.NOWORLD_SSH_PRIVATE_KEY}} 
-          local_path: './public' 
+          local_path: './Site/public' 
           remote_path: '/www/wwwroot/noworld.top'
           args: '-o ConnectTimeout=5'
